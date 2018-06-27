@@ -29,6 +29,11 @@ a:focus {
     min-height: 100%; 
 }
 
+.qoute {
+    font-size: 2em;
+    font-family: 'Proza Libre', sans-serif;
+}
+
 h3 {
     font-weight: 100;
 }
