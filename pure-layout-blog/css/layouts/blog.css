@@ -2,6 +2,18 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    -webkit-font-smoothing:subpixel-antialiased;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+html, body {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    background-color: #fcfdff;
 }
 
 a {
@@ -11,6 +23,10 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
+}
+
+.main {
+    min-height: 100%; 
 }
 
 h3 {
@@ -31,50 +47,6 @@ h3 {
     text-align: center;
     top: auto;
     margin: 3em auto;
-}
-
-.sidebar {
-    background: rgb(61, 79, 93);
-    color: #fff;
-}
-
-.sidebar-icon {
-    margin: 20%;
-}
-
-.brand-title,
-.brand-tagline {
-    margin: 2px;
-}
-.brand-title {
-    text-transform: uppercase;
-}
-.brand-tagline {
-    font-weight: 300;
-    color: rgb(176, 202, 219);
-}
-
-.nav-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.nav-item {
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-}
-.nav-item a {
-    background: transparent;
-    color: #fff;
-    margin-top: 1em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-size: 85%;
-}
-.nav-item a:hover,
-.nav-item a:focus {
-    text-decoration: none;
 }
 
 .content-subhead {
@@ -109,7 +81,7 @@ h3 {
     margin-left: 1em;
 }
 .post-description {
-    font-family: Georgia, "Cambria", serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #444;
     line-height: 1.8em;
 }
@@ -170,12 +142,6 @@ h3 {
     .header {
         margin: 80% 2em 0;
         text-align: right;
-    }
-
-    .sidebar {
-        position: fixed;
-        top: 0;
-        bottom: 0;
     }
 
     .footer {
